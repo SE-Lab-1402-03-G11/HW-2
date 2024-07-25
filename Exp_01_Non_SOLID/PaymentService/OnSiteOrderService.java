@@ -25,4 +25,9 @@ public class OnSiteOrderService implements OrderService {
     public void phoneOrderPayment(int foodPrice) {
         //Empty Body!
     }
+
+    @Override
+    public void phoneOrderRegister(String customerName) {
+        //Empty Body!
+    }
 }
