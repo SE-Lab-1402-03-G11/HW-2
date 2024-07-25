@@ -1,4 +1,4 @@
-package Exp_01_Non_SOLID.PaymentServices;
+package PaymentService;
 
 public class PhoneOrderService implements OrderService{
     @Override

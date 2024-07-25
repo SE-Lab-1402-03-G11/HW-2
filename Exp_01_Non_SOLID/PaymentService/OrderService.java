@@ -1,4 +1,4 @@
-package PaymentServices;
+package PaymentService;
 
 public interface OrderService {
     public void onSiteOrderRegister(String customerName);

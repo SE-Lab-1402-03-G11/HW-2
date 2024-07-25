@@ -1,4 +1,4 @@
-package PaymentServices;
+package PaymentService;
 
 public class OnSiteOrderService implements OrderService {
     @Override
