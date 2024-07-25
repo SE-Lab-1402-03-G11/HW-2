@@ -1,6 +1,6 @@
-import PaymentServices.OnSiteOrderService;
-import PaymentServices.OnlineOrderService;
-import PaymentServices.OrderService;
+import PaymentService.OnSiteOrderService;
+import PaymentService.OnlineOrderService;
+import PaymentService.OrderService;
 
 import java.util.Scanner;
 
