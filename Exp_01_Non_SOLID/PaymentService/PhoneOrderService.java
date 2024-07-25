@@ -1,19 +1,19 @@
 package PaymentService;
 
-public class OnSiteOrderService implements OrderService {
+public class PhoneOrderService implements OrderService{
     @Override
     public void onSiteOrderRegister(String customerName) {
-        System.out.println("on-Site order registered for " + customerName);
+        //Empty Body!
     }
 
     @Override
     public void onlineOrderRegister(String customerName) {
-        //Empty Body
+        //Empty Body!
     }
 
     @Override
     public void onSiteOrderPayment(int foodPrice) {
-        System.out.println("on-Site Payment with Price : " + foodPrice + " Tomans!");
+        //Empty Body!
     }
 
     @Override
@@ -22,12 +22,12 @@ public class OnSiteOrderService implements OrderService {
     }
 
     @Override
-    public void phoneOrderPayment(int foodPrice) {
-        //Empty Body!
+    public void phoneOrderRegister(String customerName) {
+        System.out.println("phone order registered for " + customerName);
     }
 
     @Override
-    public void phoneOrderRegister(String customerName) {
-        //Empty Body!
+    public void phoneOrderPayment(int foodPrice) {
+        System.out.println("phone Payment with Price : " + foodPrice + " Tomans!");
     }
 }
