@@ -3,7 +3,7 @@ package PaymentService;
 public class PhoneOrderService implements OrderService {
     @Override
     public void orderPayment(int foodPrice){
-        System.out.println("Phone Payment with Price : " + foodPrice + " Tomans!");
+        System.out.println("Phone Payment with Price : " + foodPrice + " $");
     }
 
     @Override

@@ -3,7 +3,7 @@ package PaymentService;
 public class OnSiteOrderService implements OrderService {
     @Override
     public void orderPayment(int foodPrice){
-        System.out.println("on-site Payment with Price : " + foodPrice + " Tomans!");
+        System.out.println("on-site Payment with Price : " + foodPrice + " $");
     }
 
     @Override
