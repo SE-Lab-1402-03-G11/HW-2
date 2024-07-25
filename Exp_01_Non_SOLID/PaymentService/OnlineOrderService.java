@@ -26,4 +26,9 @@ public class OnlineOrderService implements OrderService {
         //Empty Body!
     }
 
+    @Override
+    public void phoneOrderRegister(String customerName) {
+        //Empty Body!
+    }
+
 }
